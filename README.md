@@ -24,7 +24,7 @@
 
 ### Specific Code Refactor/Cleanup 
 
-- Implement the use `rel="noopener"` in external anchors
+- Implement `rel="noopener"` in external anchors
 - fmg-sdk-4.0.9.js / fmg-sdk-4.0.9.css - not being gzipped 
 - jQuery 2.1.1 -> 2.2.4? ....perhaps remove all public-facing jQuery deps in general?
 - ~~es6-ify `kinja-mantle/public/javascripts/app/editor/*`~~ will be handled in react rewrite?
