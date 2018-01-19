@@ -25,7 +25,7 @@
 - Create visual Route & Template hierarchy or map  - [something like this?](https://codex.wordpress.org/images/1/18/Template_Hierarchy.png)  
 
 ### General Development Housekeeping  
- - Remove orphaned and stale branches from `kinja-mantle`  
+ - Remove orphaned and stale branches from `kinja-mantle repo   
 
 ### Specific Code Refactor/Cleanup 
 
