@@ -24,6 +24,9 @@
 
 - Create visual Route & Template hierarchy or map  - [something like this?](https://codex.wordpress.org/images/1/18/Template_Hierarchy.png)  
 
+### General Development Housekeeping  
+ - Remove orphaned and stale branches from `kinja-mantle`  
+
 ### Specific Code Refactor/Cleanup 
 
 - `app/com/kinja/mantle/template/page/internals/UiKit.scala` vs `app/com/kinja/mantle/template/page/internals/UiKitNew.scala` ?
