@@ -15,15 +15,17 @@
 - **Create a singular, unified documentation source**: setup a single source of information for everything pertaining to kinja. 
     + Housed all within a github wiki (or [independent gollum instance](https://github.com/gollum/gollum)) rather than as markdowns in a repo. Provides better search & navigation. 
 
-- Create visual Route & Template hierarchy or map  - [something like this?](https://codex.wordpress.org/images/1/18/Template_Hierarchy.png)  
-
-- get all the components working in UI-Kit and establish source of truth w/ what design has (sketch version)  
-*depending on react migration timeframe, may be able to completely replace `/ui-kit` with storybook*  
+- **UI-Kit Improvements** - *depending on react migration timeframe, may be able to completely replace `/ui-kit` with storybook*  
+    + Get all the components working in UI-Kit and establish source of truth w/ what design has (sketch version)  
+    + Implement the use of the actual templating/logic of the various ui components rather than the mock-ups the exist in `app/views/closure/tiger/page/internals/ui-kit/*`  
 
 - Create/Update "Kitchen Sink" [post](https://gawkerselenium.kinja.com/permanent-test-post-do-not-delete-1787626061) which shows all possible blocknodes in use. Perhaps have it reside on [changelog.kinja.com](https://changelog.kinja.com/) as a post(s) the are permanently in the siderail 
 
+- Create visual Route & Template hierarchy or map  - [something like this?](https://codex.wordpress.org/images/1/18/Template_Hierarchy.png)  
+
 ### Specific Code Refactor/Cleanup 
 
+- `app/com/kinja/mantle/template/page/internals/UiKit.scala` vs `app/com/kinja/mantle/template/page/internals/UiKitNew.scala` ?
 - Implement `rel="noopener"` in external anchors
 - fmg-sdk-4.0.9.js / fmg-sdk-4.0.9.css - not being gzipped 
 - jQuery 2.1.1 -> 2.2.4? ....perhaps remove all public-facing jQuery deps in general?
