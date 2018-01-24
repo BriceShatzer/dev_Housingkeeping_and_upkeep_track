@@ -22,11 +22,14 @@
 
 - Create/Update "Kitchen Sink" [post](https://gawkerselenium.kinja.com/permanent-test-post-do-not-delete-1787626061) which shows all possible blocknodes in use. Perhaps have it reside on [changelog.kinja.com](https://changelog.kinja.com/) as a post(s) the are permanently in the siderail 
 
+- Document the [Kinja+](https://chrome.google.com/webstore/detail/kinja%2B/lpeophlhfamehdcalebnbgkemahehcji) / [ganga-1](https://github.com/gawkermedia/ganja-1) chrome extension project  
+
 - Create visual Route & Template hierarchy or map  - [something like this?](https://codex.wordpress.org/images/1/18/Template_Hierarchy.png)  
 
 ### General Development Housekeeping  
- - Remove orphaned and stale branches from `kinja-mantle repo   
-
+ - Remove orphaned and stale branches from `kinja-mantle` repo   
+ - Transition the ownership of the [Kinja+](https://chrome.google.com/webstore/detail/kinja%2B/lpeophlhfamehdcalebnbgkemahehcji) chrome extension in-house. (or publish a version via an officially supported account)
+ 
 ### Specific Code Refactor/Cleanup 
 
 - `app/com/kinja/mantle/template/page/internals/UiKit.scala` vs `app/com/kinja/mantle/template/page/internals/UiKitNew.scala` ?
