@@ -5,6 +5,8 @@
 - Go through stale switches, track down their original purpose, and if they are still needed.
 - Update the `/features` page to make management of switches on individual sites easier. 
 - Create feature switch Slack bot to periodically remind people to clean up, take stock of total counts, etc.
+- particularly problematic switches:  
+    + `newmodalstyles`
 
 ### Documentation 
 - Expand and correct existing documentation, integrating:  
